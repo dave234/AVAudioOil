@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		559226D61FE9C070007A3679 /* AVAudioOil.h in Headers */ = {isa = PBXBuildFile; fileRef = 559226D41FE9C070007A3679 /* AVAudioOil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		559226DD1FE9C2B0007A3679 /* NodeConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559226DC1FE9C2B0007A3679 /* NodeConnection.swift */; };
+		559A98EE1FEA068A008A5449 /* AVAudioOil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A98ED1FEA068A008A5449 /* AVAudioOil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		559226D41FE9C070007A3679 /* AVAudioOil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioOil.h; sourceTree = "<group>"; };
 		559226D51FE9C070007A3679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		559226DC1FE9C2B0007A3679 /* NodeConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeConnection.swift; sourceTree = "<group>"; };
+		559A98ED1FEA068A008A5449 /* AVAudioOil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioOil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				559226D41FE9C070007A3679 /* AVAudioOil.h */,
 				559226DC1FE9C2B0007A3679 /* NodeConnection.swift */,
+				559A98ED1FEA068A008A5449 /* AVAudioOil.swift */,
 				559226D51FE9C070007A3679 /* Info.plist */,
 			);
 			path = AVAudioOil;
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559A98EE1FEA068A008A5449 /* AVAudioOil.swift in Sources */,
 				559226DD1FE9C2B0007A3679 /* NodeConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
